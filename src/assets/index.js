@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,6 +20,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import logooc from "./tech/logooc.png";
+import gwinglogo from "./tech/gwinglogo.png";
+import java from "./tech/java.jpg";
+import python from "./tech/python.png";
+import vscode from "./tech/vscode.png";
+import postman from "./tech/postman.jpg";
+import postgresql from "./tech/postgresql.png";
+import express from "./tech/express.png";
+import boot from "./tech/boot.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -31,6 +40,14 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  java,
+  boot,
+  express,
+  postgresql,
+  postman,
+  vscode,
+  python,
+
   logo,
   backend,
   creator,
@@ -59,4 +76,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  logooc,
+  gwinglogo,
 };

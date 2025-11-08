@@ -1,5 +1,8 @@
 import React from "react";
-import Tilt from "react-tilt";
+// import Tilt from "react-t;ilt"
+
+import Tilt from 'react-parallax-tilt';
+
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -47,11 +50,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+       I’m a software developer specializing in the MERN stack — MongoDB, Express.js, React, and Node.js. I enjoy building modern, efficient, and scalable web applications that solve real-world problems.<br></br>
+
+I’m a quick learner and a problem-solver who thrives on turning complex ideas into user-friendly solutions. Collaborating closely with clients and teams, I focus on creating applications that are not only functional but also engaging and intuitive.<br></br>
+<br></br>
+ Let’s work together to bring your ideas to life and create something impactful!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

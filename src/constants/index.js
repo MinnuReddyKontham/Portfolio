@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  logooc,
+  gwinglogo
 } from "../assets";
 
 export const navLinks = [
@@ -34,27 +36,45 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
+  
+  {
+  id:"skills",
+  title:"Skills",
+  },
+  {
+    id:"project",
+    title:"Projects"
+  },
+  {
+    id:"approach",
+    title:"My Approach"
+  },
+  {
+    id:"education",
+    title:"Education"
+  },
   {
     id: "contact",
     title: "Contact",
   },
-];
+]
+
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Backend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Problem Solver",
     icon: creator,
   },
 ];
@@ -116,57 +136,42 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
+    title: "Frontend Web Developer",
+    company_name: "Octanet Services PVT LTD",
+    // icon: starbucks,
+    icon: logooc,
+    iconBg: "#fff",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained web applications using React.js and modern frontend technologies.",
+
+"Collaborated with cross-functional teams including designers, product managers, and developers to deliver high-quality products.",
+
+"Implemented responsive designs and ensured seamless performance across different browsers and devices.",
+
+"Built responsive UIs with React.js, ES6+, HTML5, CSS3, improving load speed by 20%.",
+ " Created reusable components with Tailwind CSS , reducing development time by 25%."
+
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    title: "Full Stack Developer",
+    company_name: "Gwing Software Technologies PVT LTD",
+    icon: gwinglogo,
+    iconBg: "#2C2C2C",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed end-to-end web applications using React, Node.js, Express, and MongoDB, ensuring smooth functionality and responsive design.",
+       "Developed and deployed web applications using JavaScript, React.js, Node.js, and Express, improving application performance by 15%",
+ " Collaborated with a cross-functional team to design and integrate RESTful APIs and optimize database queries using MongoDB/MySQL.",
+ "Utilized Git/GitHub for version control, improving code collaboration and reducing merge conflicts by 30%, and deployed on Vercel.",
+ "Strengthened expertise in Full-Stack Development, Cloud Deployment, API Integration, Agile Practices, and Software Debugging Testing"
+
+
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
+  
 ];
 
 const testimonials = [
@@ -198,66 +203,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ClaimIT",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to report, search, and track lost and found items, leveraging AI for intelligent matching and providing instant notifications to ensure quick recovery of belongings. Users can submit item details, receive real-time alerts, and increase the chances of retrieving lost possessions efficiently.",
     tags: [
       {
-        name: "react",
+        name: "MERN",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "nodemailer",
         color: "pink-text-gradient",
+      },
+       {
+        name: "Embeddings",
+        color: "green-text-gradient",
       },
     ],
     image: carrent,
     source_code_link: "https://github.com/",
   },
+  
   {
-    name: "Job IT",
+    name: "ResuMate",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "AI-powered resume analyzer that offers a live resume editor, generates job-description-based interview questions, predicts career paths, and recommends skills for professional growth. The platform provides a personalized and comprehensive career toolkit to help users optimize their resumes and enhance employability.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "pdf-parser",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+{
+    name: "3D_Portfolio",
+    description:
+      "Immersive 3D portfolio website designed to showcase projects, skills, and achievements with interactive animations, dynamic 3D elements, smooth transitions, and an integrated contact form that allows visitors to send instant emails—creating a modern, and interactive experience that reflects personal branding and technical expertise",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "EmailJS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Three.js",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
     source_code_link: "https://github.com/",
   },
 ];
